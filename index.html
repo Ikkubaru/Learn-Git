@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styled.css">
-    <title>Learn Git</title>
+    <title>Belajar Git</title>
 </head>
 <body>
     <div class="container">
+        <div id="clock">00:00:00</div>
         <div class="content">
+<<<<<<< HEAD
             <h1>Title</h1>
             <h2>Subt Title</h2>
             <h2>Subt Title2</h2>
@@ -38,7 +40,24 @@
             <p>Paragraph</p>
             <p>Paragraph</p>
             <p>Paragraph</p>
+=======
+            <h1>Judul</h1>
+            <h2>Isi</h2>
+            <p>Penutup</p>
+>>>>>>> 61bc5610a5ef496880b474ac6a0221d3946c4b30
         </div>
     </div>
 </body>
+<script src="script.js">
+    function updateClock() {
+    const now = new Date();
+    const hours = String(now.getHours()).padStart(2, '0');
+    const minutes = String(now.getMinutes()).padStart(2, '0');
+    const seconds = String(now.getSeconds()).padStart(2, '0');
+    const currentTime = `${hours}:${minutes}:${seconds}`;
+    document.getElementById('clock').textContent = currentTime;
+}
+setInterval(updateClock, 1000);
+updateClock();
+</script>
 </html>
