@@ -41,10 +41,22 @@ function IqbalSholeh(){
 }
 
 Aku = (a, b) =>{
-
 return a * b;
-
 }
 
 IqbalSholeh()
 console.log(Aku(10, 10))
+
+const nilai = 80;
+
+if (nilai >= 90) {console.log("Grade A")} 
+else if (nilai >= 75) {console.log("Grade B");}
+else if (nilai >= 60) {console.log("Grade C");}
+else if(nilai >= 50) {console.log("Grade D");}
+else{console.log("Grade E")}
+
+const kkm = 75
+
+const hasil = (nilai > 75) ? console.log("lulus") : console.log("tidak lulus")
+
+// buat ternary menentukan nilai positif / negatif dari sebuah variable
