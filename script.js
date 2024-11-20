@@ -18,8 +18,15 @@ let fariableSix = {
     id:1, nama:'iqbal'
 }
 let fariableSeven = 
+// fariableSeven ini nama object bukan variable tapi object
 [
+    // setelah '=' pakai [] (kurung siku) untuk menyimpan nilai object didalam array
     {id:1.5, nama:'iqbal', pacar:false},
+    // untuk membuat object pakai {}
+    // didalam object bebas di isi apa saja
+    // didalam object ada yg namanya index ditulis sebelum tanda :
+    // setelah tanda : biasanya berisi nilai dari object 
+    // nilai object bisa semua tipe data
     {id:2, nama:'Sholeh'},
     {id:3, nama:'Prasetyo'},
     {id:4, nama:'iqbal'},
