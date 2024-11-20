@@ -26,3 +26,18 @@ let fariableSeven =
 ]
 
 console.log(fariableSeven)
+
+function IqbalSholeh(){
+    let variabel = console.log('Hello World')
+
+    return variabel
+}
+
+Aku = (a, b) =>{
+
+return a * b;
+
+}
+
+IqbalSholeh()
+console.log(Aku(10, 10))
